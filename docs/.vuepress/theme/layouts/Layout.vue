@@ -1,0 +1,21 @@
+<template>
+    <ParentLayout></ParentLayout>
+</template>
+
+<script>
+  import ParentLayout from '@parent-theme/layouts/Layout.vue';
+
+  export default {
+    components: {ParentLayout}
+  }
+</script>
+
+<style>
+    .home .hero .action-button {
+        border-radius: 14px;
+    }
+    
+    .home .hero .action svg {
+        display: none;
+    }
+</style>

@@ -1,0 +1,14 @@
+{
+  "name": "atlas-docs",
+  "version": "1.0.0",
+  "description": "Atlas Documentation",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "author": "David Knopp",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.0.0-alpha.32"
+  }
+}
